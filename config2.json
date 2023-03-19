@@ -1,0 +1,28 @@
+{
+  "start": "forest",
+  "locations":
+  {
+  "forest":
+  {
+    "name": "forest",
+    "desc": "dark dark forest",
+    "next": ["castle", "field"],
+    "items": ["key", "sword", "apple"]
+  },
+  "castle":
+  {
+    "name": "castle",
+    "desc": "big castle",
+    "next": ["cave"],
+    "items": ["crown"]
+  },
+    "cave":
+    {
+      "name": "cave",
+      "desc": "deep damp cave",
+      "next": [""],
+      "items": ["ring"]
+
+    }
+ }
+}
